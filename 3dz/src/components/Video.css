@@ -1,11 +1,12 @@
 
-#video{
-    position:flex ;
+#video {
+    position: fixed;
     width: 100%;
     height: 100%;
-    object-fit:cover ;
+    object-fit: cover;
     z-index: -1;
 }
+
 .print3d{
     height: 100vh;
     width: 100%;
@@ -17,8 +18,8 @@
     position: absolute;
     margin: auto;
     width: 100%;
-    height: 100%;
-    top: 45vh;
+    
+    top: 20rem;
 }
 
 .print3d .content h1{

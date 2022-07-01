@@ -1,23 +1,22 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Video.css';
-
-import impresionVideo from '../assets/videoparapaginaweb/videowebMP4.mp4'
+import videoImpresion from '../assets/videoparapaginaweb/videowebMP4.mp4'
 
 
 const video = () => {
   return (
-    <div className='print3d'>
-
-        <video autoPlay loop muted id='video'>
-            <source src={impresionVideo} type='video/mp4'/>
-        </video>
-        <div className='content'>
+    <div className="print3d">
+           < video autoPlay loop muted id='video'>
+                <source src={videoImpresion} type='video/mp4' />
+            </ video>
+        
+        < div className="content">
             <h1>3DZ</h1>
-            <p>Servicio de impresión y Diseño 3D </p>    
+            <p>Servicio de  Diseño 3D </p>    
         
              <div>
-                <Link to='/modelados' className='btn'>Solicitá tu Modelado e Impresión</Link>
+                < Link to='/Contact' className='btn'>Solicitá tu Modelado </Link>
                
             </div>
         </div>

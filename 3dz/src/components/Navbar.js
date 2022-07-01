@@ -10,23 +10,20 @@ const Navbar = () => {
 
   return (
     <div className='header'>
-      <Link to='/'><img className="logo" src={image} alt="3DZ"/></Link>
+      <Link to='/'>< img className="logo" src={image} alt="3DZ"/></Link>
       <ul className={click ? 'nav-menu active': 'nav-menu'}>
       <li>
-        <Link to='/'>Home</Link>
+        < Link to='/'>Home</Link>
       </li>
       <li>
-        <Link to='/NuestrosTrabajos'>Nuestros Trabajos</Link>
+        < Link to='/Modelado'>Nuestros Trabajos</Link>
         
       </li>
       <li>
-        <Link to='/Contacto'>Contactanos</Link>
+        < Link to='/Contact'>Contactanos</Link>
         
       </li>
-      <li>
-        <Link to='/Nosotros'>Nosotros</Link>
-        
-      </li>
+      
         </ul>  
         <div className='hamburger' onClick={handleClick}>
           {click ?(<FaTimes  size={20} style={{color:'#fff'}}/>) : ( <FaBars  size={25} style={{color:' #fff  '}} />)}
