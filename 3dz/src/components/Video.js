@@ -13,10 +13,10 @@ const video = () => {
         
         < div className="content">
             <h1>3DZ</h1>
-            <p>Servicio de  Diseño 3D </p>    
+            <p>Servicio de Diseño 3D e impresiones </p>    
         
              <div>
-                < Link to='/Contact' className='btn'>Solicitá tu Modelado </Link>
+                < Link to='/Contact' className='btn'> Solicitá tu Modelado   </Link>
                
             </div>
         </div>

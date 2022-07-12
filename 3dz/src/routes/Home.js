@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from '../components/Footer';
 import Navbar from '../components/Navbar';
+import Socials from '../components/Socials';
 import Video from '../components/Video';
 
 
@@ -8,6 +9,7 @@ import Video from '../components/Video';
   return (
     <div>
         < Navbar/>
+        < Socials/>
         < Video/>
         < Footer/>
     </div>

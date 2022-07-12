@@ -10,8 +10,8 @@ const Navbar = () => {
 
   return (
     <div className='header'>
-      <Link to='/'>< img className="logo" src={image} alt="3DZ"/></Link>
-      <ul className={click ? 'nav-menu active': 'nav-menu'}>
+      < Link to='/'>< img className="logo" src={image} alt="3DZ"/></Link>
+      < ul className={click ? 'nav-menu active': 'nav-menu'}>
       <li>
         < Link to='/'>Home</Link>
       </li>

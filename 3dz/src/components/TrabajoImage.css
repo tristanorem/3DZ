@@ -1,12 +1,12 @@
-.model-img{
-    background: rgba(0, 0, 0, .3);
-    height: 60vh;
+.hero-img {
+    background: rgba(0,0,0,.3);
+    height: 50vh;
     width: 100%;
     position: relative;
 }
 
-.model-img:before{
-    content: '';
+.hero-img:before {
+    content:'';
     background: url('../assets/image/modelados.jpg')no-repeat center center/cover;
     height: 100%;
     width: 100%;
@@ -16,7 +16,7 @@
     z-index: -1;
 }
 
-.model-img .heading{
+.hero-img .heading {
     width: 100%;
     height: 100%;
     display: flex;
@@ -25,16 +25,23 @@
     align-items: center;
 }
 
-.model-img h1{
-    font-size: 2.4rem;  
+.hero-img h1 {
+    font-size: 2.4rem;
 }
-.model-img p{
-    font-size: 1.4rem;  
+
+.hero-img p {
+    font-size: 1.4rem;
 }
 
 
 @media screen and (max-width:640px) {
-    .model-img h1 {
+    .hero-img h1 {
         font-size: 2rem;
+    }
+    .hero-img .heading{
+        text-align: center;
+    }
+    .hero-img {
+        background-position: 100%;
     }
 }

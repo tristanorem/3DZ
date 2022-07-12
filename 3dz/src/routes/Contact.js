@@ -10,7 +10,7 @@ const Contact = () => {
   return (
     < div>
     < Navbar/>
-    < Azul  letters= "Contactanos en nuestras redes o WhatsApp "/>
+    < Azul  heading= "Contactanos en nuestras redes o Email"/>
     <Form/>
     < Footer/>
     </ div>

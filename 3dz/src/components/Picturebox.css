@@ -33,11 +33,7 @@
     overflow: hidden;
     box-shadow:  0 0 6px rgba(0, 0, 0, .9) ;
 }
- img:hover{
-   
-    transform: rotate(5deg) scale(1.1);
-}
-
+ 
 
 
 .texto {
@@ -52,4 +48,13 @@
     padding: 1rem 0;
     text-align: center;
     color: #ffff;
+}
+
+@media screen and (max-width:640px) {
+    .box-img h1 {
+        font-size: 2rem;
+    }
+    .img {
+        max-width: 80%;
+    }
 }
