@@ -29,6 +29,10 @@
     margin: auto;
 }
 
+.footer  .titulo{
+    word-spacing: 5px;
+}
+
 .footer h4 {
     font-size: 1.4rem;
     padding: 1rem 0;
@@ -46,11 +50,16 @@
 
 .footer .location p {
     padding-bottom: .5rem;
+   
 }
+
 
 .footer .location h4 {
     padding-top: 0;
+    word-spacing: 5px;
 }
+
+
 
 @media screen and (max-width:640px) {
     .footer-container {

@@ -12,8 +12,8 @@ const Footer = () => {
                  <FaSearchLocation size={30} style={{color:'#FFF',marginRight:'3rem'}} />
               </ a>
                <div>
-                 <p> Pellegrini </p>
-                 <h4> Bs As, Quilmes</h4>
+                 <p> Quilmes </p>
+                 <h4> Buenos Aires</h4>
                 </div>
             </div>
             < div className="phone">
@@ -33,7 +33,7 @@ const Footer = () => {
              < h4 className='titulo'>Sobre Nosotros</h4>
             <p>
               Nos dedicamos al diseño, modelado e impresión 3D para todo tipo de proyectos,
-               tanto industrial como particular. Realizamos modelados oragánicos y no orgánicos y  su 
+               tanto industrial como particular. Realizamos modelados orgánicos y no orgánicos y  su 
                impresión en la medida correspondiente. Los materiales que trabajamos son PLA, FLEX, NYLON 12, HIPS, PET-G, entre otros.
                
             </p>

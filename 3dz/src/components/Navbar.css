@@ -27,10 +27,18 @@
     display: none;
 }
 
+.logo-bg{
+opacity:0.3 ;
+transition: .6s;
+}
+.header-bg{
+  opacity:0.3 ;
+  transition: .6s;
+}
 
 .logo{
     display: flex;
-    height: 5rem;
+    height: 4.5rem;
     align-items: center;
     margin-left: 2rem;
 }
