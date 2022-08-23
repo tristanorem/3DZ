@@ -1,6 +1,6 @@
 import React from 'react'
 import './Footer.css'
-import {FaFacebook,FaInstagram,FaMailBulk,FaPhone,FaTwitter,FaSearchLocation} from 'react-icons/fa'
+import {FaFacebook,FaInstagram,FaMailBulk,FaPhone,FaSearchLocation,FaEnvelope} from 'react-icons/fa'
 
 const Footer = () => {
   return (
@@ -39,16 +39,13 @@ const Footer = () => {
             </p>
           < div className="social">
 
-          < a href="https://www.facebook.com/mariaelena.acevedo.98" >
+          < a href="https://www.facebook.com/3DZ-Impresiones-3D-105328892304523" >
            < FaFacebook  size={33} style={{color:'#0000ff', marginRight:'4rem'}} /> 
           </ a>
              < a href="https://www.instagram.com/3dzarteimpresiones/" >
            < FaInstagram   size={33} style={{color:'#d6249f', marginRight:'4rem'}} /> 
           </ a>
-            < a  href="https://twitter.com/Elena25209283">
-              < FaTwitter size={33} style={{color:'#00acee', marginRight:'4rem'}} />
-            </a>
-
+           
           </div>
 
          </div> 

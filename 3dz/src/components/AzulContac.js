@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './Azul.css';
+import './AzulContac.css';
 
 class Azul extends Component {
   render() {
