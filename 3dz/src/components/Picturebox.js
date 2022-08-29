@@ -1,67 +1,79 @@
 import React from 'react'
-import './Picturebox.css'
+import { SRLWrapper } from 'simple-react-lightbox';
 
-
-import torre from '../assets/image/images1.jpg'
-import chimuelo from '../assets/image/images2.jpg'
-import perro from '../assets/image/images3.jpg'
-import goku from '../assets/image/images4.jpg'
-import kaka from '../assets/image/images5.jpg'
-import llave from '../assets/image/images6.jpg'
-import orna from '../assets/image/images7.jpg'
-import ray from '../assets/image/images8.jpg'
-import sello from '../assets/image/images9.jpg'
-import nave from '../assets/image/images10.jpg'
-
+import './Picturebox.css';
 
 
 const Picturebox = () => {
-  return (
-    < div className='box'>
-      
-         < div className='title '>
-          <h1 className='texto'>Nuestros trabajos</h1>
+   return( 
+      < div className='box'>
+         < div className='title'>
+            <h1 className='texto'> Nuestros Trabajos</h1>
          </ div>
-         < div className='galery-container'>
-            < div className='box-img'>
-              
-               < img src={torre} alt="im" className='galery-item' />
-            </ div> 
-            < div className='box-img'>
-               < img src={chimuelo} alt="im"   className='galery-item'/>
-            </ div>
-            < div className='box-img'>
-               < img src={perro} alt="im"  className='galery-item' />
-            </ div>
-            < div className='box-img'>
-               < img src={goku} alt="im"  className='galery-item' />
-            </ div>
-            < div className='box-img'>
-               < img src={kaka} alt="im"  className='galery-item' />
-            </ div>
-            < div className='box-img'>
-               < img src={llave} alt="im"   className='galery-item'/>
-            </ div>
-            < div className='box-img'>
-               < img src={orna} alt="im"   className='galery-item'/>
-            </ div>
-            < div className='box-img'>
-               < img src={ray} alt="im"   className='galery-item'/>
-            </ div>
-            < div className='box-img'>
-               < img src={sello} alt="img"  className='galery-item' />
-            </ div>
-            < div className='box-img'>
-               < img src={nave} alt="im"   className='galery-item'/>
-            </ div>
-         </ div>
-        
+         < SRLWrapper >
+         < div className="container"> 
+           
+             < div className='box-img'>
+               < img src={require( '../assets/image/images1.png')} />
+             </ div>
+             < div className='box-img' >
+               < img src={require( '../assets/image/images2.png')} />
+             </ div>
+             < div  className='box-img'>
+               < img src={require( '../assets/image/images3.png')} />
+             </ div>
+             < div className='box-img' >
+               < img src={require( '../assets/image/images4.png')} />
+             </ div>
+             < div className='box-img' >
+               < img src={require( '../assets/image/images5.png')} />
+             </ div>
+             < div  className='box-img'>
+               < img src={require( '../assets/image/images6.png')} />
+             </ div>
+             < div className='box-img' >
+               < img src={require( '../assets/image/images7.png')} />
+             </ div>
+             < div className='box-img' >
+               < img src={require( '../assets/image/images8.png')} />
+             </ div>
+             < div className='box-img' >
+               < img src={require( '../assets/image/images9.png')} />
+             </ div>
+             < div className='box-img' >
+               < img src={require( '../assets/image/images10.png')} />
+             </ div>
+             
+             < div className='box-img'>
+               < img src={require( '../assets/image/images11.png')} />
+             </ div>
+             < div className='box-img'>
+               < img src={require( '../assets/image/images12.png')} />
+             </ div>
+             < div className='box-img'>
+               < img src={require( '../assets/image/images13.png')} />
+             </ div>
+             < div className='box-img'>
+               < img src={require( '../assets/image/images14.png')} />
+             </ div>
+             < div className='box-img'>
+               < img src={require( '../assets/image/images15.png')} />
+             </ div>
+             < div className='box-img'>
+               < img src={require( '../assets/image/images16.png')} />
+             </ div>
+             < div className='box-img'>
+               < img src={require( '../assets/image/images17.png')} />
+             </ div>
+             < div className='box-img'>
+               < img src={require( '../assets/image/images18.png')} />
+             </ div>
+          </ div>
           
-       </ div>
+       </SRLWrapper>
 
-
-
-  )
+     </div>
+   )
 }
 
-export default Picturebox
+export default Picturebox;
