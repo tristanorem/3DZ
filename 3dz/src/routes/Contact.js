@@ -8,12 +8,12 @@ import Footer  from '../components/Footer';
 
 const Contact = () => {
   return (
-    < div>
-    < Navbar/>
-    < AzulContac  heading= "Contactanos en nuestras redes o Email"/>
-    <Form/>
-    < Footer/>
-    </ div>
+    <div>
+      <Navbar/>
+      <AzulContac heading= "Contactanos en nuestras redes o Email"/>
+      <Form/>
+      <Footer/>
+    </div>
   )
 }
 

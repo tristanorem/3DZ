@@ -8,10 +8,10 @@ import Video from '../components/Video';
  const Home = () => {
   return (
     <div>
-        < Navbar/>
-        < Socials/>
-        < Video/>
-        < Footer/>
+        <Navbar/>
+        <Socials/>
+        <Video/>
+        <Footer/>
     </div>
   )
 }
