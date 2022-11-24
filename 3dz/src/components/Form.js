@@ -42,7 +42,6 @@ function Form(){
         }
 
         console.log('enviando > ', obj)
-
         await axios.post(`https://getform.io/f/c3bebbe1-7741-4c8b-aead-ff8ddede48e0`, obj)
         .then((response) => {
     

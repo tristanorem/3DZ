@@ -11,10 +11,24 @@
 
 .texto {
     font-size: 2.4rem;
+    padding: 2rem 0;
+    text-align: center;
+    color: #fff ;
+    margin-top: 5rem;
+}
+.titulo {
+    font-size: 2.4rem;
     padding: 1rem 0;
     text-align: center;
     color: #fff ;
     margin-top: 10px;
+}
+.tituloDos{
+    font-size: 2.4rem;
+    padding: 3rem 0;
+    text-align: center;
+    color: #fff ;
+    margin-top: 6rem;
 }
 
  
@@ -47,9 +61,5 @@
    gap:20px;
    padding: 20px;
    
-   
-   
-    
-   
-    
+ 
 }
