@@ -104,10 +104,10 @@ const Picturebox = () => {
              < img src={require( '../assets/image/impresion/dragon3.jpg')} />
            </ div>
            < div className='box-img' >
-             < img src={require( '../assets/image/impresion/muñeco1.jpg')} />
+             < img src={require( '../assets/image/impresion/muneco1.jpg')} />
            </ div>
            < div className='box-img' >
-             < img src={require( '../assets/image/impresion/muñeco2.jpg')} />
+             < img src={require( '../assets/image/impresion/muneco2.jpg')} />
            </ div>
            < div className='box-img' >
              < img src={require( '../assets/image/impresion/seiya1.jpg')} />
@@ -145,6 +145,9 @@ const Picturebox = () => {
            </ div>
            < div className='box-img'>
              < img src={require( '../assets/image/impresion/huevo1.jpg')} />
+           </ div>
+           < div className='box-img'>
+             < img src={require( '../assets/image/impresion/huevo2.jpg')} />
            </ div>
            < div className='box-img'>
              < img src={require( '../assets/image/impresion/vegeta1.jpg')} />
