@@ -14,7 +14,7 @@ const Picturebox = () => {
          < SRLWrapper >
          < div className="container"> 
             
-         < div className='box-img'>
+         <   div className='box-img'>
              < img src={require( '../assets/image/impresion/artas1.jpg')} />
            </ div>
            < div className='box-img' >

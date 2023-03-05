@@ -5,6 +5,7 @@ import './Form.css'
 const FormOld = () => {
     return (
         <div className='form'>
+            
             <form action='https://getform.io/f/c3bebbe1-7741-4c8b-aead-ff8ddede48e0' method='POST'>
                 
                 <input type='text'  placeholder='Nombre'name="name"></input>
@@ -70,7 +71,7 @@ function Form(){
 
     return(
         <div className='form'>
-            <h1>Contactanos</h1>
+            <h2>Contactanos</h2>
             <input type='text' placeholder='Nombre' name="name" value={nombre} onChange={(e)=> { setNombre(e.target.value); chequeaElBoton() }} />
             <input type='email' placeholder='Email' name="email" value={email} onChange={(e)=> { setEmail(e.target.value); chequeaElBoton() }} />
             <input type='number' placeholder='Teléfono' name="number" value={telefono} onChange={(e)=> { setTelefono(e.target.value); chequeaElBoton() }} />
