@@ -26,11 +26,15 @@ const Navbar = () => {
         < Link to='/'>Home</Link>
       </li>
       <li>
-        < Link to='/Modelado'>Nuestros Trabajos</Link>
+        < Link to='/Modelado'>Personajes </Link>
         
       </li>
       <li>
         < Link to='/Contact'>Contactanos</Link>
+        
+      </li>
+      <li>
+        < Link to='/Fabrica'>Trabajo Industrial </Link>
         
       </li>
       

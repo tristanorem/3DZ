@@ -5,6 +5,7 @@ import Socials from '../components/Socials';
 import Video from '../components/Video';
 
 
+
  const Home = () => {
   return (
     <div>

@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+   
+
+}
+
+
+.texto  h1{
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    text-align: center;
+    color: #fff ;
+    margin-top: 5rem;
+}
+.titulo {
+    font-size: 2.4rem;
+    padding: 1rem 0;
+    text-align: center;
+    color: #fff ;
+    margin-top: 10px;
+}
