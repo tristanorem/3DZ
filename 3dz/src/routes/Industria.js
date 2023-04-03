@@ -9,8 +9,8 @@ const Industria = () => {
   return (
     <div>
     <Navbar/>
-    < Fabrica />
     < FabricaImage />
+    < Fabrica />
     <Footer/>
     </div>
   )

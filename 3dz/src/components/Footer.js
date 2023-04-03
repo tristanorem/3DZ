@@ -23,9 +23,9 @@ const Footer = () => {
 
             </div>
             < div className="email">
-              
+              < a href= "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">  
                 < h4><FaMailBulk size={35} style={{color:'#FA1714',marginRight:'3rem'}} />3dzarteimpresiones@gmail.com</h4>
-              
+              </a>
             </div>
           </div>
 
