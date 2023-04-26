@@ -1,32 +1,36 @@
 import React from 'react'
 import { SRLWrapper } from 'simple-react-lightbox';
-import videoImpresion from '../assets/videoparapaginaweb/boquillavideo.mp4'
+import videoImpresion from '../assets/videoparapaginaweb/boquilla.mp4'
 import './Fabrica.css'
-
+import Contenedor from './Contenedor';
+import Pendrive from './Penusb';
 
 export default function Fabrica() {
   return (
     < div className='continer-1'>
-       
-               
       < div className='text-1'>
-          <h1> Trabajos en Produccion</h1>
+      <h2>Boquilla para Billeteros</h2>
       </ div>
-
       < SRLWrapper >
       < div className='boxContiner'>
-        <p>Realizamos el modelado y la Produccion en cantidad de  Boquillas ivizion, para billeteros ,tanto para Bancos o Casinos   </p>
-          < div className='continerImag'>
-          < img src={require( '../assets/boquillas/boquilla001.jpg')} />
-          </ div>
-          < video autoPlay loop muted id='video'>
+        <p>Desarrollamos el modelado 3D y producción en cantidad de boquillas para billeteros, tanto para Bancos como Casinos.   </p>
+        < video autoPlay loop muted id='video'>
                 <source src={videoImpresion} type='video/mp4' />
             </ video>
-      </ div>
-     </SRLWrapper>
 
-    
+          
+         
+      </ div>
+      < div className='continerImag'>
+          < img src={require( '../assets/boquillas/boquilla1.jpg')} />
+          < img src={require( '../assets/boquillas/boquilla2.jpg')} />
+          < img src={require( '../assets/boquillas/boquilla3.jpg')} />
+          </ div>
+      <Contenedor/>
+      <Pendrive/>
+     </SRLWrapper>
     </ div>
+    
     
   )
 }

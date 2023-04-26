@@ -1,0 +1,107 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+   
+
+}
+
+.continer-2  {
+    font-size: 2.4rem;
+    padding: 2rem 0;
+    text-align: center;
+    color: #fff ;
+    margin-top: 5rem;
+}
+
+
+
+
+.text-2 h2{
+    
+    font-size: 2.4rem;
+    padding: 1rem 0;
+    text-align:center;
+    color: #fff ;
+    margin-top: 1rem;
+}
+
+
+
+
+.Continerbox p{
+    font-family: 'Courier ', Courier, monospace;
+    font-size: 1.8rem;
+    margin: 5rem;
+    text-align:justify;
+    color: #fff ;
+    
+    
+}
+.Continerbox {
+    margin: 0 auto;
+    margin-top:4rem;
+    width: 100%;
+    height: 100%;
+    display: grid ;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    overflow: hidden;
+   
+}
+.ContinerImag{
+    padding: 0.1rem;
+    margin-top: 5rem;
+    display: grid;
+    max-width: 30rem;
+    grid-template-columns: repeat(3,1fr);
+   
+}
+
+
+.ContinerImag img {
+  
+    width: 60vh;
+    height: 64vh;
+    padding: 0.1rem;
+    cursor: pointer;
+    overflow: none;
+    margin-top: 2.5rem;
+    border: solid 1px rgba(255, 255, 255, 0.253);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.9rem;
+    
+}
+
+
+.Continerbox #video {
+    position:relative;
+    display: grid;
+    width: 350px;
+    border: solid 3px rgba(255, 255, 255, 0.555);
+    object-fit: cover;
+    z-index: -1;
+    margin:  0 auto;
+    height: 65vh;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:640px) {
+    .hero-img h1 {
+        font-size: 2rem;
+    }
+    .hero-img .heading{
+        text-align: center;
+    }
+    .ContinerImag{
+        background-position: 100%;
+    }
+}

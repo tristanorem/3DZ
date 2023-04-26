@@ -9,7 +9,7 @@ const Industria = () => {
   return (
     <div>
     <Navbar/>
-    < FabricaImage  heading='Modelados 3D e Impresiones' text='Trabajamos en Produccion en Cantidad' />
+    < FabricaImage  heading='Trabajos en Producción'  />
     < Fabrica />
     <Footer/>
     </div>
