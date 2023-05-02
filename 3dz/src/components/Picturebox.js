@@ -15,6 +15,57 @@ const Picturebox = () => {
          < div className="container"> 
             
          <   div className='box-img'>
+             < img src={require( '../assets/image/impresion/b1.jpg')} />
+           </ div>
+           < div className='box-img' >
+             < img src={require( '../assets/image/impresion/b2.jpg')} />
+           </ div>
+           < div className='box-img' >
+             < img src={require( '../assets/image/impresion/b3.jpg')} />
+           </ div>
+           < div className='box-img' >
+             < img src={require( '../assets/image/impresion/b4.jpg')} />
+           </ div>
+           < div className='box-img' >
+             < img src={require( '../assets/image/impresion/b5.jpg')} />
+           </ div>
+           < div className='box-img' >
+             < img src={require( '../assets/image/impresion/jules1.jpg')} />
+           </ div>
+           < div className='box-img' >
+             < img src={require( '../assets/image/impresion/jules2.jpg')} />
+           </ div>
+           < div className='box-img' >
+             < img src={require( '../assets/image/impresion/jules3.jpg')} />
+           </ div>
+           < div className='box-img' >
+             < img src={require( '../assets/image/impresion/jules4.jpg')} />
+           </ div>
+           < div className='box-img' >
+             < img src={require( '../assets/image/impresion/jules5.jpg')} />
+           </ div>
+           < div className='box-img' >
+             < img src={require( '../assets/image/impresion/jules6.jpg')} />
+           </ div>
+           < div className='box-img' >
+             < img src={require( '../assets/image/impresion/jules7.jpg')} />
+           </ div>
+           < div className='box-img' >
+             < img src={require( '../assets/image/impresion/jules8.jpg')} />
+           </ div>
+           < div className='box-img' >
+             < img src={require( '../assets/image/impresion/jules9.jpg')} />
+           </ div>
+           < div className='box-img' >
+             < img src={require( '../assets/image/impresion/jules10.jpg')} />
+           </ div>
+
+
+
+
+
+
+           < div className='box-img' >
              < img src={require( '../assets/image/impresion/artas1.jpg')} />
            </ div>
            < div className='box-img' >

@@ -4,6 +4,9 @@ import videoImpresion from '../assets/videoparapaginaweb/boquilla.mp4'
 import './Fabrica.css'
 import Contenedor from './Contenedor';
 import Pendrive from './Penusb';
+import Regatones from './Regatones'
+
+
 
 export default function Fabrica() {
   return (
@@ -28,6 +31,7 @@ export default function Fabrica() {
           </ div>
       <Contenedor/>
       <Pendrive/>
+      <Regatones/>
      </SRLWrapper>
     </ div>
     
