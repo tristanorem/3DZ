@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
             < div className="phone">
               
-               <h4>< FaPhone size={35} style={{color:'#52FA5C',marginRight:'3rem'}} />1130116275</h4>
+               <h4>< FaPhone size={35} style={{color:'#52FA5C',marginRight:'3rem'}} />1139050940</h4>
               
 
             </div>
